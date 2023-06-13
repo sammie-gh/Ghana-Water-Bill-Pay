@@ -58,7 +58,7 @@ public class Common {
     public static final String PREFS = "prefs";
     private static final String ALLOWED_CHARACTERS = "0123456789qwertyuiopasdfghjklzxcvbnm";
     public static String CATEGORY_SELECTED = "My Favorite books";
- 
+
 
     public static boolean isConnectedToInternet(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
