@@ -58,12 +58,7 @@ public class Common {
     public static final String PREFS = "prefs";
     private static final String ALLOWED_CHARACTERS = "0123456789qwertyuiopasdfghjklzxcvbnm";
     public static String CATEGORY_SELECTED = "My Favorite books";
-    public static String merchantEmail = "ofori.d.evans@gmail.com";
-    public static String PublicKey = "FLWPUBK-09d3d6647d2937eda6ce7ef458d76313-X";
-    public static String EncryptionKey = "d77ca225d32901d6b5e3ebdb";
-    //Paystack
-    public static String SecretKey = "sk_test_d378443e358a72e8c81e35e8e5f5a7077721b721";
-    public static String PS_ublicKeyP = "pk_live_98e9d3b542127e67b92dd822ecd0725df84f200c";
+ 
 
     public static boolean isConnectedToInternet(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
