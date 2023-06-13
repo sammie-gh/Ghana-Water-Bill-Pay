@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#01579B</color>
+<!--    <color name="colorPrimary">#263238</color>-->
+<!--    <color name="colorPrimaryDark">#000a12</color>-->
+
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#ececec</color>
+    <color name="darkwhite">#ececec</color>
+
+    <color name="gren_br">#5ec131</color>
+    <color name="cream">#e9bfa0</color>
+    <color name="toolbar_items">#313131</color>
+
+    <color name="grey">#5b5b5b</color>
+    <color name="textColor">#181C34</color>
+
+    <!--text colors-->
+    <color name="text_black_87">#DE000000</color>
+    <color name="text_black_60">#99000000</color>
+    <color name="text_black_54">#8A000000</color>
+    <color name="text_black_38">#61000000</color>
+    <color name="divider">#1F000000</color>
+    <color name="primaryText">@color/text_black_87</color>
+    <color name="secondaryText">@color/text_black_60</color>
+
+    <!--card-->
+    <color name="card_text">#ff212121</color>
+    <color name="card_title_text">@color/text_black_87</color>
+    <color name="card_publisher_text">@color/text_black_87</color>
+    <color name="card_time_text">@color/md_grey_600</color>
+    <color name="caption_text">@color/text_black_54</color>
+    <color name="navy">#021430</color>
+
+
+    <color name="spinColorBackground">#366EBB</color>
+
+    <color name="select_color">#901D6CBA</color>
+    <color name="txt_color">#020607</color>
+    <color name="right_dark">#ff7d7d</color>
+    <color name="wrong_dark">#3cd968</color>
+
+    <color name="green">#3cd968</color>
+
+    <color name="card_color_light">#373d47</color>
+    <color name="yellow">#fef300</color>
+    <color name="dark_yellow">#f69c01</color>
+    <color name="orange_yellow">#ed8000</color>
+    <color name="card_color">#282D37</color>
+    <color name="colorOnSurface">#5f636a</color>
+
+    //You can change Background color
+    <color name="bg_color">#f4f4f4</color>
+
+    <color name="background_color">#ffffff</color>
+
+    <color name="gray1">#f1f1f1</color>
+    <color name="light_background">#CCF3F5</color>
+    <!-- background color of lifeline bg nd main page bottom bg colors -->
+    <color name="transparent">#00000000</color>
+    <color name="dark_red">#ff634e</color>
+    <color name="off_white">#f4f4f4</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#d4d4d4</color>
+    <color name="dark_gray">#504F4F</color>
+    <color name="correct">#3cd968</color>
+    <color name="incorrect">#ff7d7d</color>
+    <color name="edt_bg">#ecf5f8</color>
+
+    <color name="purple">#9E59E1</color>
+    <color name="purple_light">#F17DC4</color>
+    <color name="sky">#439BD2</color>
+    <color name="sky_light">#73E1C0</color>
+    <color name="orange">#E37743</color>
+    <color name="orange_light">#ED9F3F</color>
+    <color name="blue">#1D6CBA</color>
+    <color name="blue_light">#54C1FF</color>
+    <color name="pink">#C40F8E</color>
+    <color name="pink_light">#FB5293</color>
+    <color name="green_">#3C8346</color>
+    <color name="green_light">#8BD188</color>
+    <color name="red_light">#93291E</color>
+    <color name="red_">#7B0D1E</color>
+    <color name="exam_grey">#2F2E41</color>
+    <color name="exam_blue">#6C63FF</color>
+    <!-- You change Background color of MainScreen and LoginScreen-->
+    <color name="main_bg">#eeeff3</color>
+    <color name="gray01">#cccccc</color>
+    <color name="gray02">#c5c5c5</color>
+    <color name="gray03">#DEDEDE</color>
+    <color name="gray04">#FBFBFB</color>
+    <color name="gray0">#EFEFF1</color>
+    <color name="gradientBlue">#376DF6</color>
+    <color name="gradientLightBlue">#2196F3</color>
+    <!--grey-->
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--Post card colors-->
+    <color name="post_heading">#2e2e2e</color>
+    <color name="post_details">#747474</color>
+
+    <color name="settings_black">#535353</color>
+
+    <color name="textColorHint">#87ffffff</color>
+    <color name="colorWhite">#Ffffff</color>
+    <color name="colorButtonPress">#4B577b</color>
+    <color name="transparentBlack">#96000000</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#AEEA00</color>
+    <color name="bg_screen2">#aa00ff</color>
+    <color name="bg_screen3">#00B8D4</color>
+    <color name="bg_screen4">#ef6c00</color>
+
+    <color name="navigationBar">#25364a</color>
+    <color name="lightBlue">#00bcd4</color>
+    <color name="lightGreen">#00c7a0</color>
+    <color name="lightBlack">#5a7785</color>
+    <color name="greenLight">#36bb9e</color>
+    <color name="red">#F44336</color>
+    <color name="textDark">#111e2d</color>
+    <color name="blackBg">#242424</color>
+    <color name="lightBg">#657790</color>
+
+    <color name="lightWhite">#f5f5f5</color>
+    <color name="black">#000</color>
+
+
+    <color name="home_background">#ECEDEF</color>
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+    <color name="home_background_light">#56F1E9CE</color>
+
+
+    <color name="card1">#1DE9B6</color>
+    <color name="card2">#70dccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+
+</resources>

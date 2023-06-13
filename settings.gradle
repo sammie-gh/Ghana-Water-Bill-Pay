@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name='LessonPlan'
+//include 'paywithslydepay',':paywithslydepay'
+//include ':libs:paywithslydepay'

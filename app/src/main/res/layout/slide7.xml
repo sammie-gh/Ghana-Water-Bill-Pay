@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lightBlack">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_weight="3"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:src="@drawable/tut_slide_7" />-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Follow the instructions given on the page"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/montserratmedium"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/montserratmedium"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+
+            android:text="@string/nb_option_7_is_now_option_6_in_mtn_momo_n_in_case_of_no_approvals_shown_in_your_momo_wallet_please_try_checking_for_approvals_again_after_at_least_25_seconds_n_please_do_not_close_the_app_kindly_go_back_to_the_payment_page_in_the_app_to_verify_your_payment_status"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc" />
+
+    </LinearLayout>
+</RelativeLayout>

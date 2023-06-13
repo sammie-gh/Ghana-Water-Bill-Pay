@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/appbackground_welcome" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="62dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/brandon_grotesque_black"
+                android:gravity="center_horizontal"
+                android:text="Ghana Water Bill Pay"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.547"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/topimage" />
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/edittextshape"
+                android:fontFamily="@font/brandon_grotesque_black"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/blue"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="48dp"
+                android:background="@drawable/loginbutton"
+                android:fontFamily="@font/brandon_grotesque_black"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/restore_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/loginbutton"
+                android:fontFamily="@font/brandon_grotesque_black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/forgot_password_click_here"
+                android:textAllCaps="false"
+                android:textColor="@color/textDark"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/montserratmedium"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/select_color"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toptext" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

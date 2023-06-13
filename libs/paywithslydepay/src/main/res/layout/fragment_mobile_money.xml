@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@android:color/white">
+
+    <com.apps.norris.paywithslydepay.views.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mm_instruction"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:inputType="phone"
+            android:hint="Phone Number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.apps.norris.paywithslydepay.views.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NB: your phone number should start with 233 \n Eg: 0244121200 should be 233244121200 \n not 2330244121200, please don't add the zero(0)."
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <com.apps.norris.paywithslydepay.views.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_make_sure_you_have_exact_or_more_fund_in_your_account_in_order_to_receive_alert_prompt"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>

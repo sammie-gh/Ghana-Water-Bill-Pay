@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item android:title="Basic Schools">
+        <menu>
+
+            <group
+                android:id="@+id/SetupBasic"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_basic1"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_1"
+                    android:title="Basic schools Term 1 " />
+                <item
+                    android:id="@+id/nav_basic2"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_2"
+                    android:title="Basic schools Term 2" />
+                <item
+                    android:id="@+id/nav_basic3"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_3"
+                    android:title="Basic schools Term 3" />
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="JHS">
+        <menu>
+            <group
+                android:id="@+id/SetupJhs"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_jhs"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_1"
+                    android:title="JHS Term 1" />
+                <item
+                    android:id="@+id/nav_jhs2"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_2"
+                    android:title="JHS Term 2" />
+                <item
+                    android:id="@+id/nav_jhs3"
+                    android:icon="@drawable/ic_iconfinder_ic_filter_3"
+                    android:title="JHS Term 3" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/extra">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_history_black_48dp"
+                    android:title="History" />
+                <item
+                    android:id="@+id/nav_tsol"
+                    android:icon="@drawable/ic_baseline_format_list_numbered_rtl_24"
+                    android:title="ASOL/TSOL" />
+                <item
+                    android:id="@+id/nav_textbooks"
+                    android:icon="@drawable/ic_book"
+                    android:title="Text Books" />
+
+                <item
+                    android:id="@+id/nav_exams"
+                    android:icon="@drawable/ic_exam_sheet"
+                    android:title="Exams" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_freebies"
+            android:icon="@drawable/ic_money_off_black_24dp"
+            android:title="Freebies" />
+
+        <item
+            android:id="@+id/nav_my_files"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Downloaded Files" />
+
+        <item
+            android:id="@+id/nav_bulk"
+            android:icon="@drawable/ic_iconfinder_chalk_bag"
+            android:title="Bulk Plans" />
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="Policy" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Sign Out" />
+
+
+</menu>

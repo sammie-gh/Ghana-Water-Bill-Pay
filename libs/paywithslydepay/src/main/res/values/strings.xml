@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PayWithSlydepay</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logoImage">Payment option logo</string>
+    <string name="mm_instruction">Please enter your number</string>
+    <string name="visa_loading_message">Select visa in the tab that opens and close the window when you complete the transaction</string>
+    <string name="mm_loading_message">You will receive a bill prompt soon </string>
+    <string name="mm_other_loading_message">You will receive a bill prompt soon</string>
+    <string name="vodafone_loading_message">Kindly close this page and use Vodafone Cash prompt option \n\n THANK YOU </string>
+    <string name="mtn_confirm_message">Wait a few seconds for a prompt and enter your pin to confirm. If no prompt is displayed: \n\n1. Dial *170# \n\n2. Enter 6 for My Wallet \n\n3. Enter 3 for My Approvals \n\n4. Enter your PIN to list your approvals \n\n5. Select your transaction to complete it \n\n6. Comeback to this page after \n\n NB:Please do not close or leave this page until you are done downloading your file \n\n\n Your payment is safe. If anything goes wrong we got your back! </string>
+    <string name="mm_confirm_message"> 1. Check your phone for payment request \n2. Enter your MoMo PIN \n3. Approve payment to SlydePay \n4. You will receive SMS confirmation message for a successful payment
+        \n5. Click CONFIRM to complete transaction \n\nNB:Please do not close or leave this page until you are done downloading your file \n\n\n Your payment is safe. If anything goes wrong we got your back! </string>
+    <string name="visa_confirm_message">Click confirm to complete transaction.</string>
+    <string name="successful_purchase" formatted="false">You have successfully purchased %s for ¢ %.2f \n\n Please Click on DONE to Proceed</string>
+    <string name="please_make_sure_you_have_exact_or_more_fund_in_your_account_in_order_to_receive_alert_prompt">Please make sure you have exact or more fund in your account in order to receive bill prompt.</string>
+    <string name="admin">AdminAccount/Admin</string>
+</resources>
